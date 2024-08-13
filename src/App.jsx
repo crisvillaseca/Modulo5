@@ -13,7 +13,6 @@ function App() {
           <ErrorBoundary>
             <Switch>
               <Route path="/" exact component={TrendingSongs} />
-              {/* Puedes agregar más rutas aquí */}
             </Switch>
           </ErrorBoundary>
         </header>
